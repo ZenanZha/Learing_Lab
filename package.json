@@ -1,0 +1,22 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "Learning Lab",
+  "main": "seneca.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenanZha/Learing_Lab.git"
+  },
+  "author": "ZenanZha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZenanZha/Learing_Lab/issues"
+  },
+  "homepage": "https://github.com/ZenanZha/Learing_Lab#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
