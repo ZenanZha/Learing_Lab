@@ -5,15 +5,15 @@
 * Given a string `email`, return `true` if the string is in the form
 * of a valid Seneca College email address, `false` othewise.
 */
-exports.isValidEmail = function(email) {
-	// TODO: needs to be implemented
+exports.isValidEmail = function f1(email) {
+  return email.includes('@myseneca.ca') || email.includes('@senecacollege.ca');
 };
 
 /**
 * Given a string `name`, return a formatted Seneca email address for
 * this person. NOTE: the email doesn't need to be real/valid/active.
 */
-exports.formatSenecaEmail = function(name) {
-	// TODO: needs to be implemented
+exports.formatSenecaEmail = function f2(name) {
+  return `${name}!@myseneca.ca`;
 };
 

@@ -18,5 +18,14 @@
   "homepage": "https://github.com/ZenanZha/Learing_Lab#readme",
   "dependencies": {
     "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint *.js",
+    "test": "npm run -s lint"
   }
 }
