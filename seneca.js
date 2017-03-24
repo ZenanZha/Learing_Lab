@@ -14,6 +14,6 @@ exports.isValidEmail = function f1(email) {
 * this person. NOTE: the email doesn't need to be real/valid/active.
 */
 exports.formatSenecaEmail = function f2(name) {
-  return `${name}!@myseneca.ca`;
+  return `${name}@myseneca.ca`;
 };
 
