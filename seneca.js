@@ -6,7 +6,7 @@
 * of a valid Seneca College email address, `false` othewise.
 */
 exports.isValidEmail = function f1(email) {
-  return /@myseneca.ca$/.test(email) || /@senecacollege.ca$/.test(email);
+  return (/@myseneca.ca$/.test(email) || /@senecacollege.ca$/.test(email) || /@senecac.on.ca$/.test(email)) && !email.includes(' ');
 };
 
 /**

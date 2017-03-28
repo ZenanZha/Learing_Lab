@@ -46,7 +46,7 @@ describe('seneca.formatSenecaEmail()', function() {
     expect(seneca.isValidEmail(name)).toBe(false);
   });
   test('returns false for name contains control characters', function (){
-    var name = '@#''
+    var name = '@#mshaw'
     expect(seneca.isValidEmail(name)).toBe(false);
   });
   test('returns false for name is null', function (){
